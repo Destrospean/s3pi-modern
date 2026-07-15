@@ -62,7 +62,7 @@ namespace s3pi.Package
             // if it's not a file, it's probably safe not to lock it...
             FileStream fs = packageStream as FileStream;
             string tmpfile = Path.GetTempFileName();
-            using var mutex = new Mutex(initiallyOwned: false, "Global\\MyUniqueAppFileLock", out _);
+            using Mutex mutex = new Mutex(false, "Global\\s3piPackageHeaderLock", out _);
             try
             {
                 SaveAs(tmpfile);
