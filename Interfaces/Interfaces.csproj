@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>s3pi.Interfaces</RootNamespace>
+        <AssemblyName>s3pi.Interfaces</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CS System Classes\CS System Classes.csproj" />
+      <ProjectReference Include="..\Settings\Settings.csproj" />
+    </ItemGroup>
+
+</Project>
