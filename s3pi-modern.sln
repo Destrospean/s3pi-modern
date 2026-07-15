@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Settings", "Settings\Settin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS System Classes", "CS System Classes\CS System Classes.csproj", "{61DE7FB1-DC2D-49D9-9ADE-07125CD8B492}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Package", "Package\Package.csproj", "{ABD1D2A3-8CCC-4AC8-9F30-3BEC0D499AD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{61DE7FB1-DC2D-49D9-9ADE-07125CD8B492}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61DE7FB1-DC2D-49D9-9ADE-07125CD8B492}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61DE7FB1-DC2D-49D9-9ADE-07125CD8B492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABD1D2A3-8CCC-4AC8-9F30-3BEC0D499AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABD1D2A3-8CCC-4AC8-9F30-3BEC0D499AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABD1D2A3-8CCC-4AC8-9F30-3BEC0D499AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABD1D2A3-8CCC-4AC8-9F30-3BEC0D499AD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
