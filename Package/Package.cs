@@ -62,11 +62,12 @@ namespace s3pi.Package
             // if it's not a file, it's probably safe not to lock it...
             FileStream fs = packageStream as FileStream;
             string tmpfile = Path.GetTempFileName();
+            using var mutex = new Mutex(initiallyOwned: false, "Global\\MyUniqueAppFileLock", out _);
             try
             {
                 SaveAs(tmpfile);
 
-                if (fs != null) fs.Lock(0, header.Length);
+                if (fs != null) mutex.WaitOne();;
 
                 BinaryReader r = new BinaryReader(new FileStream(tmpfile, FileMode.Open));
                 BinaryWriter w = new BinaryWriter(packageStream);
@@ -76,7 +77,7 @@ namespace s3pi.Package
                 w.Flush();
                 r.Close();
             }
-            finally { File.Delete(tmpfile); if (fs != null) fs.Unlock(0, header.Length); }
+            finally { File.Delete(tmpfile); if (fs != null) mutex.ReleaseMutex(); }
 
             packageStream.Position = 0;
             header = (new BinaryReader(packageStream)).ReadBytes(header.Length);
