@@ -12,4 +12,10 @@
       <ProjectReference Include="..\..\WrapperDealer\WrapperDealer.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="GameFolders.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
