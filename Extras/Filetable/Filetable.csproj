@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Extensions\Extensions.csproj" />
+      <ProjectReference Include="..\..\Package\Package.csproj" />
+      <ProjectReference Include="..\..\WrapperDealer\WrapperDealer.csproj" />
+    </ItemGroup>
+
+</Project>
