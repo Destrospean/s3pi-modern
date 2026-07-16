@@ -4,12 +4,10 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>disable</Nullable>
-        <RootNamespace>s3pi.Package</RootNamespace>
-        <AssemblyName>s3pi.Package</AssemblyName>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
+      <ProjectReference Include="..\RCOLChunks\RCOLChunks.csproj" />
     </ItemGroup>
 
 </Project>

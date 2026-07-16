@@ -8,7 +8,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
-      <ProjectReference Include="..\Settings\Settings.csproj" />
     </ItemGroup>
 
 </Project>
