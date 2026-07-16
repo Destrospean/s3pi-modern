@@ -9,7 +9,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
+        <ProjectReference Include="..\CS System Classes\CS System Classes.csproj">
+            <Private>False</Private>
+        </ProjectReference>
+        <ProjectReference Include="..\Interfaces\Interfaces.csproj">
+            <Private>False</Private>
+        </ProjectReference>
+        <ProjectReference Include="..\Settings\Settings.csproj">
+            <Private>False</Private>
+        </ProjectReference>
     </ItemGroup>
 
 </Project>

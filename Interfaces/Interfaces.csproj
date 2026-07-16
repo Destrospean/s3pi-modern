@@ -9,8 +9,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\CS System Classes\CS System Classes.csproj" />
-      <ProjectReference Include="..\Settings\Settings.csproj" />
+        <ProjectReference Include="..\CS System Classes\CS System Classes.csproj">
+            <Private>False</Private>
+        </ProjectReference>
+        <ProjectReference Include="..\Settings\Settings.csproj">
+            <Private>False</Private>
+        </ProjectReference>
     </ItemGroup>
 
 </Project>

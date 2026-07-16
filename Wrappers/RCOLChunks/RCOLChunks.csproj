@@ -4,12 +4,22 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>disable</Nullable>
-        <RootNamespace>s3pi.RCOLChunks</RootNamespace>
         <AssemblyName>s3pi.RCOLChunks</AssemblyName>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\GenericRCOLResource\GenericRCOLResource.csproj" />
+        <ProjectReference Include="..\..\CS System Classes\CS System Classes.csproj">
+            <Private>False</Private>
+        </ProjectReference>
+        <ProjectReference Include="..\GenericRCOLResource\GenericRCOLResource.csproj">
+            <Private>False</Private>
+        </ProjectReference>
+        <ProjectReference Include="..\..\Interfaces\Interfaces.csproj">
+            <Private>False</Private>
+        </ProjectReference>
+        <ProjectReference Include="..\..\Settings\Settings.csproj">
+            <Private>False</Private>
+        </ProjectReference>
     </ItemGroup>
 
 </Project>
