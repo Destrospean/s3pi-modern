@@ -10,39 +10,39 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Package", "Package\Package.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wrappers", "Wrappers", "{8F640A13-4565-4540-B9E6-560C464AA3E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASPartResource", "CASPartResource\CASPartResource.csproj", "{37CD1598-37DA-47F6-86E5-D5F89CBDBF67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASPartResource", "Wrappers\CASPartResource\CASPartResource.csproj", "{37CD1598-37DA-47F6-86E5-D5F89CBDBF67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogResource", "CatalogResource\CatalogResource.csproj", "{9D79174A-A311-448F-8D91-C283F93C9B63}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogResource", "Wrappers\CatalogResource\CatalogResource.csproj", "{9D79174A-A311-448F-8D91-C283F93C9B63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplateResource", "ComplateResource\ComplateResource.csproj", "{8D0BEF93-3DC1-40DC-9314-C3F9F32E6D51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplateResource", "Wrappers\ComplateResource\ComplateResource.csproj", "{8D0BEF93-3DC1-40DC-9314-C3F9F32E6D51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultResource", "DefaultResource\DefaultResource.csproj", "{6B523763-F49D-4167-BC22-38CCB45D5D5D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultResource", "Wrappers\DefaultResource\DefaultResource.csproj", "{6B523763-F49D-4167-BC22-38CCB45D5D5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRCOLResource", "GenericRCOLResource\GenericRCOLResource.csproj", "{6A0E04EB-1ACB-4CD7-BF7A-FDC67C7558D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRCOLResource", "Wrappers\GenericRCOLResource\GenericRCOLResource.csproj", "{6A0E04EB-1ACB-4CD7-BF7A-FDC67C7558D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JazzResource", "JazzResource\JazzResource.csproj", "{844C8944-BCAF-44D8-A546-3218A7776A65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JazzResource", "Wrappers\JazzResource\JazzResource.csproj", "{844C8944-BCAF-44D8-A546-3218A7776A65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeshChunks", "MeshChunks\MeshChunks.csproj", "{D130E095-9C86-4CD3-B94E-AEC7A71B8F5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeshChunks", "Wrappers\MeshChunks\MeshChunks.csproj", "{D130E095-9C86-4CD3-B94E-AEC7A71B8F5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCOLChunks", "RCOLChunks\RCOLChunks.csproj", "{5AF4A5AD-8C96-4948-9BAF-3BA76F79C2B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCOLChunks", "Wrappers\RCOLChunks\RCOLChunks.csproj", "{5AF4A5AD-8C96-4948-9BAF-3BA76F79C2B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularResource", "ModularResource\ModularResource.csproj", "{B126CBA2-5244-4C84-826C-AA95CEFCBA51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularResource", "Wrappers\ModularResource\ModularResource.csproj", "{B126CBA2-5244-4C84-826C-AA95CEFCBA51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameMapResource", "NameMapResource\NameMapResource.csproj", "{836F18BB-19DE-4F70-A0E4-049D79AAFB2E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameMapResource", "Wrappers\NameMapResource\NameMapResource.csproj", "{836F18BB-19DE-4F70-A0E4-049D79AAFB2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGMPHashMapResource", "NGMPHashMapResource\NGMPHashMapResource.csproj", "{4012138F-478A-4A5D-BC3C-D3A8A60A62A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGMPHashMapResource", "Wrappers\NGMPHashMapResource\NGMPHashMapResource.csproj", "{4012138F-478A-4A5D-BC3C-D3A8A60A62A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjKeyResource", "ObjKeyResource\ObjKeyResource.csproj", "{DCE2E752-C530-4DAB-A284-1AC2865C646C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjKeyResource", "Wrappers\ObjKeyResource\ObjKeyResource.csproj", "{DCE2E752-C530-4DAB-A284-1AC2865C646C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RigResource", "RigResource\RigResource.csproj", "{E6834E12-F673-41F5-BD22-7EF04C7CC2A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RigResource", "Wrappers\RigResource\RigResource.csproj", "{E6834E12-F673-41F5-BD22-7EF04C7CC2A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptResource", "ScriptResource\ScriptResource.csproj", "{37BB99F1-3738-4A83-A041-3FC40D67882F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptResource", "Wrappers\ScriptResource\ScriptResource.csproj", "{37BB99F1-3738-4A83-A041-3FC40D67882F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StblResource", "StblResource\StblResource.csproj", "{020FB598-2DAA-4A27-A5D0-F1957B6BFF23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StblResource", "Wrappers\StblResource\StblResource.csproj", "{020FB598-2DAA-4A27-A5D0-F1957B6BFF23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TxtcResource", "TxtcResource\TxtcResource.csproj", "{3E0CC784-1CF6-422B-A29C-493E8A05F550}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TxtcResource", "Wrappers\TxtcResource\TxtcResource.csproj", "{3E0CC784-1CF6-422B-A29C-493E8A05F550}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserCAStPresetResource", "UserCAStPresetResource\UserCAStPresetResource.csproj", "{ECE317EC-4462-4E4D-9867-F86D92386B4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserCAStPresetResource", "Wrappers\UserCAStPresetResource\UserCAStPresetResource.csproj", "{ECE317EC-4462-4E4D-9867-F86D92386B4E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WrapperDealer", "WrapperDealer\WrapperDealer.csproj", "{D2D222AD-CD25-4A43-8C20-6FA42B2C60B4}"
 EndProject
