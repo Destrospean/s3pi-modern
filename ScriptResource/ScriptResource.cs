@@ -21,6 +21,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.Loader;
 using s3pi.Interfaces;
 
 namespace ScriptResource
@@ -197,14 +198,16 @@ namespace ScriptResource
                     {
                         if (cleardata.Length > 0)
                         {
-                            AppDomain ap = AppDomain.CreateDomain("assy");
+                            //AppDomain ap = AppDomain.CreateDomain("assy");
+                            AssemblyLoadContext loadContext = new AssemblyLoadContext("assy", true);
                             try
                             {
-                                SafeLoader loader = (SafeLoader)ap.CreateInstanceAndUnwrap(this.GetType().Assembly.FullName, typeof(SafeLoader).FullName);
+                                SafeLoader loader = (SafeLoader)Activator.CreateInstance(loadContext.LoadFromAssemblyName(GetType().Assembly.GetName()).GetType(typeof(SafeLoader).FullName));
+                                //SafeLoader loader = (SafeLoader)ap.CreateInstanceAndUnwrap(this.GetType().Assembly.FullName, typeof(SafeLoader).FullName);
                                 s += loader.Value(cleardata);
                             }
                             catch (Exception ex) { s += string.Format("{0}: Error: {1}\n", f, ex.Message); }
-                            finally { AppDomain.Unload(ap); }
+                            finally { /*AppDomain.Unload(ap);*/ loadContext.Unload(); }
                         }
                         else
                         {
